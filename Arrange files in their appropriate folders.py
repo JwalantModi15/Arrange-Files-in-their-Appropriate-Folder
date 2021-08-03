@@ -20,7 +20,6 @@ def submit():
         try:
             os.chdir(rf"{s.get()}")
             files = os.listdir()
-            # files.remove("Arrange files in Appropriate Folder.py")
             create("Docs")
             create("Images")
             create("Music")
